@@ -1,0 +1,19 @@
+{
+  "name": "stockshape-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/boot.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.3",
+    "@trpc/server": "^11.8.1",
+    "better-sqlite3": "^12.9.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "hono": "^4.8.3",
+    "superjson": "^2.2.6",
+    "zod": "^4.3.5"
+  }
+}
